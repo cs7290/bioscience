@@ -45,32 +45,42 @@
                 <p class="text-start fs-4 fst-italic fw-bolder">Explore the educational landscape of MAINE today and embark on a path to knowledge and success!</p>
                     <div class="container">
                         <div class="row">
-                         <div class="col-xl-15 col-lg-12">
+                         <div class="col">
                                 <div class="card shadow mb-4">
-                                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold fs-4 text-secondary">Visualization</h6>
-                                    </div>
+                                    <!-- <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-secondary">Visualization</h6>
+                                    </div> -->
                                     <div class="card-body text-secondary">
-                                        <div id="observablehq-viewof-selectCompany-3738cbad"></div>
-<div id="observablehq-viewof-chart-3738cbad"></div>
-<div id="observablehq-viewof-SelectedCompanyMap-3738cbad"></div>
-<p>Credit: <a href="https://observablehq.com/@class/bio-science-data-visualization-part-2@820">Untitled by class</a></p>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/@class/bio-science-data-visualization-part-2@820.js?v=4";
-new Runtime().module(define, name => {
-  if (name === "viewof selectCompany") return new Inspector(document.querySelector("#observablehq-viewof-selectCompany-3738cbad"));
-  if (name === "viewof chart") return new Inspector(document.querySelector("#observablehq-viewof-chart-3738cbad"));
-  if (name === "viewof SelectedCompanyMap") return new Inspector(document.querySelector("#observablehq-viewof-SelectedCompanyMap-3738cbad"));
-  return ["SelectCompanyDataPoints","data","root","egChangeListener","visible","SelectCollegeDataPoints","egSelectedColleges"].includes(name);
-});
-</script>
+                                        <div id="observablehq-viewof-selectCompany-9a669d4a"></div>
+                                        <br>
+                                        <div id="observablehq-viewof-chart-9a669d4a"></div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col">
+                            <div class="card shadow mb-4">
+                                <!-- <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-secondary">Visualization</h6>
+                                </div> -->
+                                <div class="card-body text-secondary">
+                                    <div id="observablehq-viewof-SelectedCompanyMap-cfd1b123"></div>
+                                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+                                    <script type="module">
+                                    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+                                    import define from "https://api.observablehq.com/@class/bio-science-data-visualization-part-2@820.js?v=4";
+                                    new Runtime().module(define, name => {
+                                      if (name === "viewof SelectedCompanyMap") return new Inspector(document.querySelector("#observablehq-viewof-SelectedCompanyMap-cfd1b123"));
+                                      if (name === "viewof chart") return new Inspector(document.querySelector("#observablehq-viewof-chart-9a669d4a"));
+                                      if (name === "viewof selectCompany") return new Inspector(document.querySelector("#observablehq-viewof-selectCompany-9a669d4a"));
+                                      return ["SelectCompanyDataPoints","data","viewof SelectedCompanyMap","root","viewof chart","egChangeListener","visible","SelectCollegeDataPoints","egSelectedColleges"].includes(name);
+                                    });
+                                    </script>
+                            </div>
+                        </div>
+                            
+                           </div>
                     </div>
+             
                 </header>
         <!-- Solution Section-->
         <!-- Footer-->
@@ -88,4 +98,16 @@ new Runtime().module(define, name => {
             </div>
         </footer>
     </body>
+    <p>Credit: <a href="https://observablehq.com/@class/bio-science-data-visualization-part-2@820">Untitled by class</a></p>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/@class/bio-science-data-visualization-part-2@820.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "viewof selectCompany") return new Inspector(document.querySelector("#observablehq-viewof-selectCompany-008f1980"));
+      if (name === "viewof chart") return new Inspector(document.querySelector("#observablehq-viewof-chart-008f1980"));
+      return ["SelectCompanyDataPoints","data","viewof SelectedCompanyMap","root","egChangeListener","visible","SelectCollegeDataPoints","egSelectedColleges"].includes(name);
+    });
+    </script>
 </html>
